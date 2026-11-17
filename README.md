@@ -2,8 +2,6 @@
 
 The Flask API behind NutriLens. It recognises Indian dishes in a photo, estimates portions and nutrition, and keeps each user's food diary, goals and trends.
 
-**Live:** https://nutrilens-backend-aet6.onrender.com/api/health · **Web app:** [NutriLens---Frontend](https://github.com/Rajat22-11/NutriLens---Frontend)
-
 ## How analysis works
 
 1. **Detect**: a custom YOLOv5 model (`weights/best.pt`) finds the dishes on the plate. Images are letterboxed and boxes are mapped back to the original photo.
